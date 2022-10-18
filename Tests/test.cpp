@@ -1,6 +1,6 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "catch.hpp"
-#include "main.cpp"
+#include "../main.cpp"
 
 TEST_CASE( "1: 1 to the power of 0", "[multi-file:2]" ) {
     REQUIRE( power(1,0) == 1 );
