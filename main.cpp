@@ -1,14 +1,10 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
-int Factorial( int number ) {
-  return number <= 1 ? 1 : Factorial( number - 1 ) * number;
+int power( int num1, int num2 ) {
+  return pow(num1,num2);//use pow() function
 }
 
-/*int main()
-//{
-////    cout << "Hello World!" << endl;
-//    return 0;
-//}*/
 
